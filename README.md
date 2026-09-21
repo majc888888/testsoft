@@ -2,22 +2,6 @@
 
 基于 **Python + Pygame** 实现的点击式箭头解谜小游戏。棋盘上有若干带方向的箭头，按合适的顺序点击，让所有箭头依次飞出棋盘即可通关；点错顺序会被阻挡并消耗失误机会。
 
-> 本项目为课程作业，开发过程借助 AIGC 工具（WorkBuddy / Claude）辅助完成，具体协作记录见项目博客。
-
-## 游戏截图
-
-### 开始界面
-![开始界面](assets/screenshots/start.png)
-
-### 游戏界面
-![游戏界面](assets/screenshots/playing.png)
-
-### 通关界面
-![通关界面](assets/screenshots/clear.png)
-
-### 失败界面
-![失败界面](assets/screenshots/over.png)
-
 ## 游戏规则
 
 1. 棋盘中包含上、下、左、右四种方向的箭头；
@@ -37,7 +21,6 @@
 | Python | 3.13 |
 | 图形库 | Pygame 2.6.1 |
 | IDE | 任意 Python 编辑器（VS Code / PyCharm 等） |
-| AIGC 辅助 | WorkBuddy（Claude） |
 
 ## 安装和运行方法
 
@@ -94,3 +77,17 @@ python -m unittest discover -s tests -v
 ```
 
 测试覆盖：路径检测（四方向）、边界越界处理、四个关卡可通关性、点击飞出、碰撞扣失误、失误耗尽失败、重新开始恢复等场景。
+
+## 游戏截图
+
+### 开始界面
+![开始界面](assets/screenshots/start.png)
+
+### 游戏界面
+![游戏界面](assets/screenshots/playing.png)
+
+### 通关界面
+![通关界面](assets/screenshots/clear.png)
+
+### 失败界面
+![失败界面](assets/screenshots/over.png)
